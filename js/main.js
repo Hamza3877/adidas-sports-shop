@@ -25,9 +25,9 @@ function initNav() {
   const isMobile = matchMedia("(max-width: 767px)");
 
   if (isMobile.matches) {
-    const current = $('.is-current');
-    current.classList.add('open');
-    $('.sub-toggle', current).setAttribute('aria-expanded', 'true');
+    const current = $(".is-current");
+    current.classList.add("open");
+    $(".sub-toggle", current).setAttribute("aria-expanded", "true");
   }
 
   $$(".sub-toggle").forEach((link) => {
@@ -242,7 +242,6 @@ function initAccordion(root) {
   });
 }
 
-
 function initSelect(root) {
   const button = $(".select__btn", root);
   const list = $(".select__list", root);
@@ -269,20 +268,20 @@ function initSelect(root) {
   document.addEventListener("click", (event) => {
     if (!root.contains(event.target)) setOpen(false);
   });
-   root.addEventListener("keydown", (event) => {
+  root.addEventListener("keydown", (event) => {
     if (event.key === "Escape") setOpen(false);
   });
 
-  
   root.closest("form").addEventListener("reset", () => {
     const first = $('[role="option"]', list);
-    $$('[role="option"]', list).forEach((o) => o.removeAttribute("aria-selected"));
+    $$('[role="option"]', list).forEach((o) =>
+      o.removeAttribute("aria-selected"),
+    );
     first.setAttribute("aria-selected", "true");
     button.textContent = input.value = first.textContent;
     button.classList.remove("is-selected");
   });
 }
-
 
 function initForm() {
   const form = $("#contact-form");

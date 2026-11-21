@@ -24,7 +24,7 @@ favicon.svg, robots.txt, sitemap.xml
 | ------- | --------------- |
 | Desktop | 1200px and up   |
 | Tablet  | 768px - 1199px  |
-| Mobile  |     |
+| Mobile  | 767px and below |
 
 ## What is in it
 

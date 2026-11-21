@@ -13,6 +13,8 @@
       href="https://hamza3877.github.io/adidas-sports-shop/"
     />
     <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://hamza3877.github.io/adidas-sports-shop/" />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta
       property="og:title"
       content="Adidas Tracks | Sports Shoes, Garments &amp; Accessories"
@@ -31,7 +33,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Oswald:wght@300;400;500;600&family=Roboto:wght@300;400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Oswald:wght@300;400;500;600&family=Roboto:wght@300;400&display=swap"
     />
     <link
       rel="preload"
@@ -39,6 +41,7 @@
       href="images/hero-bg.jpg"
       media="(min-width: 768px)"
     />
+     <link rel="preload" as="image" href="images/hero-bg-mobile.jpg" media="(max-width: 767px)" />
     <link rel="stylesheet" href="css/style.css" />
     <script type="application/ld+json">
       {
@@ -139,7 +142,7 @@
               <li><a href="#">About Us</a></li>
             </ul>
           </nav>
-          <form class="search" role="search" action="#">
+          <form class="search" role="search" aria-label="Site" action="#">
             <label class="sr-only" for="site-search">Search</label>
             <input id="site-search" type="search" placeholder="SEARCH" />
             <button type="submit" aria-label="Search">
@@ -452,7 +455,7 @@
         <aside class="sidebar" aria-label="Sidebar">
           <section class="widget">
             <h2>Search</h2>
-            <form class="widget__body widget__search" role="search" action="#">
+          <form class="widget__body widget__search" role="search" aria-label="Articles" action="#">
               <label class="sr-only" for="kw">Keyword</label>
               <input id="kw" type="text" placeholder="Enter keyword" />
               <button type="submit" class="btn-skew">Search</button>
@@ -815,6 +818,7 @@
                 id="name"
                 name="name"
                 type="text"
+                autocomplete="name"
                 placeholder="enter name"
                 required
               />
@@ -825,6 +829,7 @@
                 id="email"
                 name="email"
                 type="email"
+                autocomplete="email"
                 placeholder="Enter email"
                 required
               />
