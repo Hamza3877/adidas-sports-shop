@@ -6,7 +6,7 @@ Live site: https://hamza3877.github.io/adidas-sports-shop/
 
 ## Run it locally
 
-Open `index.html` in a browser, or start it with the Live Server extension in VS Code. Fonts load from Google Fonts, so you need an internet connection to see them.
+Please Open `index.html` in a browser, or start it with the Live Server extension in VS Code. Fonts load from Google Fonts, so you need an internet connection to see them.
 
 ## Structure
 
@@ -36,3 +36,21 @@ favicon.svg, robots.txt, sitemap.xml
 ## Notes
 
 - Colours, fonts and shared backgrounds are CSS variables at the top of `css/style.css`.
+
+## Screenshots
+
+### Lighthouse (live site)
+
+| Mobile | Desktop |
+| ------ | ------- |
+| ![Lighthouse mobile](screenshots/lighthouse-mobile.jpg) | ![Lighthouse desktop](screenshots/lighthouse-desktop.jpg) |
+
+### Breakpoints
+
+| 1920px | 1440px |
+| ------ | ------ |
+| ![Desktop 1920](screenshots/desktop-1920.jpg) | ![Desktop 1440](screenshots/desktop-1440.jpg) |
+
+| Tablet 980px | Mobile 376px |
+| ------------ | ------------ |
+| ![Tablet 980](screenshots/tablet-980.jpg) | ![Mobile 376](screenshots/mobile-376.jpg) |
