@@ -41,16 +41,23 @@ favicon.svg, robots.txt, sitemap.xml
 
 ### Lighthouse (live site)
 
-| Mobile | Desktop |
-| ------ | ------- |
-| ![Lighthouse mobile](screenshots/lighthouse-mobile.jpg) | ![Lighthouse desktop](screenshots/lighthouse-desktop.jpg) |
+<img src="screenshots/lighthouse-mobile.jpg" alt="Lighthouse mobile" width="400" />
+<img src="screenshots/lighthouse-desktop.jpg" alt="Lighthouse desktop" width="400" />
 
 ### Breakpoints
 
-| 1920px | 1440px |
-| ------ | ------ |
-| ![Desktop 1920](screenshots/desktop-1920.jpg) | ![Desktop 1440](screenshots/desktop-1440.jpg) |
+**Desktop 1920px**
 
-| Tablet 980px | Mobile 376px |
-| ------------ | ------------ |
-| ![Tablet 980](screenshots/tablet-980.jpg) | ![Mobile 376](screenshots/mobile-376.jpg) |
+<img src="screenshots/desktop-1920.jpg" alt="Desktop 1920" width="800" />
+
+**Desktop 1440px**
+
+<img src="screenshots/desktop-1440.jpg" alt="Desktop 1440" width="800" />
+
+**Tablet 980px**
+
+<img src="screenshots/tablet-980.jpg" alt="Tablet 980" width="500" />
+
+**Mobile 376px**
+
+<img src="screenshots/mobile-376.jpg" alt="Mobile 376" width="300" />
